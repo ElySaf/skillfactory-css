@@ -9,7 +9,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background: url(https://images.unsplash.com/photo-1509628061459-1328d06c2ced?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fF84ekZIdWhSaHlvfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60)
+    background: url(https://images.unsplash.com/photo-1658498549747-6147163202cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
     bottom no-repeat;
     background-size: cover;
 }
@@ -18,6 +18,37 @@ h1 {
     font-size: 4rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.news {
+    background-color: white;
+    pad: 50px 0 32px;
+}
+
+article {
+    width: 668px;
+    margin: 0 auto 32px;
+    pad: 6px 15px;
+    border-bottom: 1px solid rgb( 128, 128, 128);
+}
+
+article a {
+    color: rgb(33,37,41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: rgb(30, 173, 85);   
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+ article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+ }
 
 footer {
     padding-top: 20px;
@@ -37,6 +68,6 @@ footer .links > a {
 }
 
 .copyright {
-    color: rgb(108, 117, 125)
+    color: rgb(108, 117, 125);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
